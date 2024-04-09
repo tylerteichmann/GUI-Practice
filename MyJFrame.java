@@ -4,14 +4,13 @@ public class MyJFrame extends JFrame {
 
     public MyJFrame(String title) {
         super(title);
-        MyJPanel panel = new MyJPanel();
-        
+        // MyJPanel panel = new MyJPanel();
+        // setContentPane(panel);
 
-        setSize(2100, 900);
+        setSize(900, 900);
         setLocation(200, 100);
-        setVisible(true);
 
-        setContentPane(panel);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 
 }

@@ -10,7 +10,9 @@ public class Main {
         // jFrame.setLocation(200, 200);
         // jFrame.setVisible(true);
 
-        MyJFrame jFrame = new MyJFrame("Window 1");
+        // MyJFrame jFrame = new MyJFrame("Window 1");
         // MyJFrame jFrame2 = new MyJFrame();
+
+        TicTacToeGame ticTacToeGame = new TicTacToeGame();
     }
 }
